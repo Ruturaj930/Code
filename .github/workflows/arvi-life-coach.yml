@@ -57,6 +57,7 @@ print(f'advice={advice}' >> \$GITHUB_OUTPUT)
 "
         env:
           PYTHONPATH: .
+              shell: bash
 
       - name: Create/Update Daily Advice Issue
         uses: actions/github-script@v7
