@@ -1,0 +1,8 @@
+langchain
+langgraph
+fastapi
+uvicorn
+whisper-cpp
+governor
+pydantic
+python-dotenv
