@@ -29,6 +29,7 @@ jobs:
 
       - name: Run Arvi Life Coach
         id: coach
+              shell: bash
         run: |
           python -c "
 import sys
@@ -57,7 +58,6 @@ print(f'advice={advice}' >> \$GITHUB_OUTPUT)
 "
         env:
           PYTHONPATH: .
-              shell: bash
 
       - name: Create/Update Daily Advice Issue
         uses: actions/github-script@v7
