@@ -29,7 +29,7 @@ jobs:
 
       - name: Run Arvi Life Coach
         id: coach
-              shell: bash
+        shell: bash
         run: |
           python -c "
 import sys
